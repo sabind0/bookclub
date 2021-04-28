@@ -1,5 +1,7 @@
 *{
     margin: 0px;
+    scroll-behavior: smooth;
+
     
 }
 hr{
@@ -18,6 +20,9 @@ nav ul{
 }
  nav ul li{
     padding: 30px;
+}
+nav ul a{
+    text-decoration: none;
 }
 nav ul li:hover{
     background-color: aquamarine;
@@ -377,7 +382,7 @@ border: none;
 
 }
 .contactsection{
-    height: 100%;
+   
 
  /*   background: url(image/black\ side\ 1.svg),url(image/side\ 22\ black.svg);
    */ background-repeat: no-repeat;
@@ -427,12 +432,42 @@ border: none;
     padding:10px;
    display: flex;
    justify-content: center;
+ 
    
 }
 .follow ul li a i{
-    font-size: 20px;
-    color: black;
+    font-size: 30px;
+  
+    padding: 10px;
 }
+.fa-facebook{
+    color: #4267B2;
+}
+.fa-twitter{
+    color: #1DA1F2;
+}
+.fa-instagram{
+ 
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        -webkit-background-clip: text;
+           
+                background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+        font-size: 300px;
+        
+  
+}
+.fa-reddit{
+    color: #FF4500;
+}
+.fa-whatsapp{
+    color:  #4AC959;
+}
+.fa-linkedin{
+    color: #2867B2;
+}
+
 .contactblock2{
     display: flex;
     flex-direction:column;
@@ -464,7 +499,7 @@ textarea:focus{
  
 }
 .input:focus{ 
-    outline: none;   
+    outline: none; 
 }
 .submit{
     margin-left: 30%;  
@@ -473,4 +508,33 @@ textarea:focus{
     margin-top: 10px;
     border: 1px solid rgb(187, 183, 183);
 }
+footer{
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(167, 159, 148);
+}
+footer ul{
+ 
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
+}
+footer  ul a{
+   margin: 15px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+footer  ul a:hover{
+    background-color: cadetblue;
+}
+.copywrite a{
+    text-decoration: none;
+ 
+}
+.copywrite{
+    text-align: center;
+padding: 10px;
+
+}
