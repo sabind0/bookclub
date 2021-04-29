@@ -1,0 +1,265 @@
+*{
+    margin: 0px;
+    scroll-behavior: smooth;
+
+    
+}
+hr{
+    margin-top: 40px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+   
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    margin-top: -50px;
+    
+}
+ nav ul li{
+    padding: 30px;
+}
+nav ul a{
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: aquamarine;
+}
+nav ul img{
+ height: 30px;
+}
+.search{
+    margin-right: 60px;
+    margin-top: -25px;
+    float: right;
+ width: 300px;
+
+
+}
+#search1{
+border: 1px solid black;
+height: 23px;
+border-radius: 3px;
+
+}
+#search1{
+    animation: reverse;
+    transition: 0.5s;
+}
+#search1:focus{
+    outline: none;
+   height: 26px;
+    padding-right: 100px;
+}
+.greenlight{
+    padding-bottom: 10px;
+    background-color:rgba(106, 214, 162, 0.58);
+}
+.logo img{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.hometext{
+    font-size: 40px;
+    margin-left: 300px;
+    margin-top: 150px;
+}
+.hometext  h1::after{
+    content: "A place for readers";
+    position: absolute;
+    font-size: 20px;
+    margin-top:80px;
+    transform: translateX(-40px);
+}
+.booksvg{
+   float: right;
+ margin-top: -300px;
+ margin-right: 100px;
+ 
+}
+.booksvg img{
+    height: 300px;
+}
+.explorbtn{
+    margin-left: 300px;
+}
+.explorbtn button{
+height: 30px;
+width: 100px;
+background: rgba(106, 214, 162, 1);
+border-radius: 11%;
+border:none;
+
+}
+.quote{
+    text-align: center;
+    margin-top: 30px;
+ 
+ padding-bottom: 20px;
+}
+.second-colorblock{
+    background: rgba(60, 227, 238, 1);
+    height: 30%;
+    border-radius:10px 10px 0px 0px ;
+    background-position: fixed;
+}
+
+.contactsection{
+   
+
+ /*   background: url(image/black\ side\ 1.svg),url(image/side\ 22\ black.svg);
+   */ background-repeat: no-repeat;
+    background-size: contain,cover;
+    
+}
+
+.contactblock{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+}
+.contactblock1{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contactblock1 ul{
+    list-style-type: none;
+ 
+    
+}
+.contactblock1  img{
+    height: 20px;
+}
+.addresh{
+  padding: 10px;
+    margin-top: 100px;
+    border-radius: 10px;
+ 
+   background-color: rgb(188, 185, 190);
+    
+
+}
+.follow h1{
+    text-align: center;
+}
+.follow{
+    background-color: rgb(188, 185, 190);
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.follow ul{
+    padding:10px;
+   display: flex;
+   justify-content: center;
+ 
+   
+}
+.follow ul li a i{
+    font-size: 30px;
+  
+    padding: 10px;
+}
+.fa-facebook{
+    color: #4267B2;
+}
+.fa-twitter{
+    color: #1DA1F2;
+}
+.fa-instagram{
+ 
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        -webkit-background-clip: text;
+           
+                background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+        font-size: 300px;
+        
+  
+}
+.fa-reddit{
+    color: #FF4500;
+}
+.fa-whatsapp{
+    color:  #4AC959;
+}
+.fa-linkedin{
+    color: #2867B2;
+}
+
+.contactblock2{
+    display: flex;
+    flex-direction:column;
+    background-color: lightblue;
+    width: 300px;
+    height: auto;
+    align-items: center;
+    padding: 20px;
+   margin: 30px;
+   border-radius: 10px;
+}
+
+.input{
+    margin: 8px;
+    height: 35px;
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid rgb(187, 183, 183);
+}
+
+textarea{
+    resize: none;
+    margin-top: 10px;
+border-radius: 10px;
+border: 1px solid rgb(187, 183, 183);
+}
+textarea:focus{
+    outline: none;
+ 
+}
+.input:focus{ 
+    outline: none; 
+}
+.submit{
+    margin-left: 30%;  
+    width: 100px;
+    padding: 7px;
+    margin-top: 10px;
+    border: 1px solid rgb(187, 183, 183);
+}
+footer{
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(167, 159, 148);
+}
+footer ul{
+ 
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+footer  ul a{
+   margin: 15px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+footer  ul a:hover{
+    background-color: cadetblue;
+}
+.copywrite a{
+    text-decoration: none;
+ 
+}
+.copywrite{
+    text-align: center;
+padding: 10px;
+
+}

@@ -34,8 +34,24 @@ nav ul img{
     margin-right: 60px;
     margin-top: -25px;
     float: right;
-    height: 30px;
- background-color: rgba(127, 255, 212, 0.37);
+ width: 300px;
+
+
+}
+#search1{
+border: 1px solid black;
+height: 23px;
+border-radius: 3px;
+
+}
+#search1{
+    animation: reverse;
+    transition: 0.5s;
+}
+#search1:focus{
+    outline: none;
+   height: 26px;
+    padding-right: 100px;
 }
 .greenlight{
     padding-bottom: 10px;
