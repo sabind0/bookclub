@@ -4,44 +4,73 @@
 
     
 }
-hr{
-    margin-top: 40px;
-}
+
 
 nav ul{
-    display: flex;
-    flex-direction: row;
+   padding: 30px;
     list-style-type: none;
-   
-    display: flex;
-    height: 30px;
-    justify-content: center;
-    margin-top: -50px;
-  
+    display:flex;
+ justify-content: center;
+ width: 600px;
+
+ margin-left: 100px;
+ 
     
 }
- nav ul li{
-    padding: 30px;
+nav{
+
+    display:flex;
+
+  justify-content: center;
+    background-color: aqua;
+   height: 110px;
+ 
+    z-index: 1;
+   
 }
+.afterscroll{
+
+scroll-behavior: smooth;
+       
+    position:sticky;
+     
+       
+    
+        top: 0px;
+       
+       
+
+}
+
 nav ul a{
+    padding: 10px;
     text-decoration: none;
+margin: 5px;
+}
+nav ul li{
+
+    padding: 10px;
+    border-radius: 4px;
+}
+nav ul a:last-child{
+margin-top: -3px;
 }
 nav ul li:hover{
-    background-color: aquamarine;
+ border-bottom: white 5px solid;
+    background-color: rgb(63, 189, 147);
 }
 nav ul img{
  height: 30px;
 }
 .search{
-    margin-right: 60px;
-    margin-top: -25px;
-    float: right;
- width: 300px;
+width: 300px;
 
+
+margin-top: 50px;
 
 }
 #search1{
-border: 1px solid black;
+border: 0.7px solid black;
 height: 23px;
 border-radius: 3px;
 
@@ -57,11 +86,12 @@ border-radius: 3px;
 }
 .greenlight{
     padding-bottom: 10px;
-    background-color:rgba(106, 214, 162, 0.58);
+    background-color:rgba(56, 219, 138, 0.58);
 }
 .logo img{
-    margin-left: 30px;
-    margin-top: 30px;
+    justify-self: flex-start;
+    margin-top: 20px;
+    border-radius: 20px;
 }
 .hometext{
     font-size: 40px;
@@ -87,13 +117,21 @@ border-radius: 3px;
 .explorbtn{
     margin-left: 300px;
 }
+
 .explorbtn button{
 height: 30px;
 width: 100px;
-background: rgba(106, 214, 162, 1);
-border-radius: 11%;
-border:none;
+background: rgb(154, 243, 200);
+border-radius: 6%;
+border:0.5px solid black;
 
+
+}
+.explorbtn button:hover{
+    background-color: rgb(8, 233, 76);
+    color: white;
+  padding: 10px  10px 10px 10px;
+    
 }
 .quote{
     text-align: center;
@@ -141,7 +179,7 @@ margin-left: -100px;
     border-radius: 20px;
 }
 .Bnsvg{
-    background: url(image/book1.svg);
+    background: url(/image/book1.svg);
 background-size:cover;
 background-attachment: fixed;
 height: auto;
@@ -151,7 +189,7 @@ height: auto;
 }
 
 .swiper-container {
-    
+    z-index: 0;
     height: 390px;
     padding-left: 40px;
    
@@ -163,7 +201,7 @@ height: auto;
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-  
+
    /*Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -182,7 +220,7 @@ height: auto;
   .swiper-button-next{
       color: black;
    
- 
+    
     }
     .swiper-button-prev{
         color: black;
@@ -191,6 +229,7 @@ height: auto;
       }
 .swiper-wrapper img{
     height:inherit;
+  
    
 } 
 .swiper-slide{
@@ -290,7 +329,7 @@ margin-left: 200px;
 
  .forsvg{
      background: center;
-    background-image:url(image/Rectangle\ 33.svg);
+   background-image: url(/image/Rectangle\ 33.svg);
     background-position: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -327,7 +366,7 @@ margin-top: 0px;
 }
 .membershipblock{
     background-color: rgb(14, 235, 165);
-    background: url(image/side\ 1.svg),url(image/side\ \ 22.svg);
+    background: url(/image/side\ 1.svg),url(/image/side\ \ 22.svg);
     background-position: left,right;
     background-repeat: no-repeat;
     background-size:cover;
