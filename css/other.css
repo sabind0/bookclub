@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0px;
     scroll-behavior: smooth;
@@ -93,6 +95,40 @@ border-radius: 3px;
     margin-top: 20px;
     border-radius: 20px;
 }
+/*footer*/
+
+footer{
+    
+    margin: 50px 0px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(167, 159, 148);
+}
+footer ul{
+ 
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+footer  ul a{
+   margin: 15px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+footer  ul a:hover{
+    background-color: cadetblue;
+}
+.copywrite a{
+    text-decoration: none;
+ 
+}
+.copywrite{
+    text-align: center;
+padding: 10px;
+
+}
 /*   login page*/
 
 .loginsection{
@@ -112,23 +148,33 @@ height: 300px;
     background-color: aqua;
     margin: 100px 300px 10px 10px;
 }
-form{
-    background-color: aqua;
-    padding: 100px;
+.inputform{
+    background-color: orangered;
+}
+.inputform form{
+  text-align: center;
+   
     display: flex;
     flex-direction: column;
-    margin-top: 200px;
+   margin-top: 80px;
+}
+.loginsection form h1{
+margin-bottom: 20px;
 }
 .loginsection input[type=text]{
-    margin: 10px;
+  margin:10px 20px 10px 20px;
     width: 200px;
-    border-radius: 5px;
+ 
     height: 25px;
-  border: none;
+border-radius: 3px;
+  border:none;
+  border-bottom: 2px solid black;
 }
+
+
 .loginsection input[type=text]:focus{
     outline:none;
-    border: 1px solid black;
+  
     background-color: rgb(255, 255, 255);
 }
 .loginsection input[type=submit]{
@@ -139,3 +185,46 @@ form{
  
     background-color: rgb(255, 255, 255);
 }
+.loginhelp{
+    float: right;
+    color: white;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.mediaway{
+   
+  
+    margin-left: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+    margin-top:40px ;
+}
+.mediaway ul{
+    margin-top: 10px;
+    list-style-type: none;
+      display: flex;
+      justify-content: space-around;
+      margin-right: 50px;
+}
+
+.mediaway ul li .fa-facebook{
+    color: #4267B2;
+}
+.mediaway ul li .fa-twitter{
+    color: #1DA1F2;
+}
+.mediaway ul li .fa-instagram{
+
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        -webkit-background-clip: text;
+           
+                background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+        font-size: 20px;
+        
+  
+}
+
