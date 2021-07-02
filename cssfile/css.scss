@@ -1,0 +1,134 @@
+@import 'variables';
+* {
+  margin: 0px;
+}
+nav {
+  .topnav {
+    background-color: $hcolor;
+    height: 6%;
+    .email {
+      float: left;
+
+      margin: 10px 0px 0px 40px;
+    }
+    .follow {
+      float: right;
+      margin: 10px 70px 0px 0px;
+
+      ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        li a {
+          margin: 2px;
+          text-decoration: none;
+        }
+      }
+
+      /// this is follow list
+    }
+  }
+  /// /// from here second nav
+  .secondnav {
+    background-color: rgb(151, 144, 144);
+    height: 12%;
+    .logo {
+      img {
+        float: left;
+        height: 60px;
+        margin-left: 30px;
+        margin-top: 10px;
+        border-radius: 10px;
+      }
+    }
+    ul {
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      li a {
+        margin: 2px;
+        text-decoration: none;
+      }
+
+      justify-content: center;
+      li {
+        margin-top: 20px;
+        padding: 20px;
+        &:hover {
+          background-color: rosybrown;
+        }
+      }
+    }
+  }
+}
+.topbody {
+  background-color: $scolor;
+  height: (100%-18%);
+  .firstbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .namebox {
+      margin-top: 140px;
+      .title {
+        ::after {
+          content: 'A best place for readers';
+          font-size: 15px;
+          position: absolute;
+          transform: translate(-100px, 40px);
+        }
+        h1 {
+          font-size: 40px;
+        }
+      }
+      .btn {
+        .btn1 {
+          &:hover {
+            background-color: red;
+          }
+        }
+        .btn2 {
+          &:hover {
+            background-color: green;
+          }
+        }
+        button {
+          background-color: $hcolor;
+          outline: none;
+          border-radius: 20px;
+          border: 2px;
+          padding: 4px 6px 4px 6px;
+          margin: 20px 10px 0px 0px;
+        }
+      }
+    }
+    .logo-qu {
+      margin: 50px 0px 0px 60px;
+      .qu {
+        margin-top: 30px;
+      }
+    }
+  }
+  .searchbox {
+    display: flex;
+    justify-content: center;
+    form {
+      margin-top: 60px;
+      input {
+        height: 40px;
+        width: 500px;
+        border-radius: 10px;
+        border: 1px solid black;
+        outline: none;
+        &:hover {
+          outline: none;
+        }
+      }
+    }
+  }
+  .infobox {
+    background-color: $hcolor;
+    margin-top: 60px;
+    height: 100px;
+  }
+}

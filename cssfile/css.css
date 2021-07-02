@@ -1,0 +1,92 @@
+* {
+  margin: 0px; }
+
+nav .topnav {
+  background-color: FF4D00;
+  height: 6%; }
+  nav .topnav .email {
+    float: left;
+    margin: 10px 0px 0px 40px; }
+  nav .topnav .follow {
+    float: right;
+    margin: 10px 70px 0px 0px; }
+    nav .topnav .follow ul {
+      display: flex;
+      flex-direction: row;
+      list-style-type: none; }
+      nav .topnav .follow ul li a {
+        margin: 2px;
+        text-decoration: none; }
+nav .secondnav {
+  background-color: #979090;
+  height: 12%; }
+  nav .secondnav .logo img {
+    float: left;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 10px; }
+  nav .secondnav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center; }
+    nav .secondnav ul li a {
+      margin: 2px;
+      text-decoration: none; }
+    nav .secondnav ul li {
+      margin-top: 20px;
+      padding: 20px; }
+      nav .secondnav ul li:hover {
+        background-color: rosybrown; }
+
+.topbody {
+  background-color: F6DE00;
+  height: 82%; }
+  .topbody .firstbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .topbody .firstbox .namebox {
+      margin-top: 140px; }
+      .topbody .firstbox .namebox .title ::after {
+        content: 'A best place for readers';
+        font-size: 15px;
+        position: absolute;
+        transform: translate(-100px, 40px); }
+      .topbody .firstbox .namebox .title h1 {
+        font-size: 40px; }
+      .topbody .firstbox .namebox .btn .btn1:hover {
+        background-color: red; }
+      .topbody .firstbox .namebox .btn .btn2:hover {
+        background-color: green; }
+      .topbody .firstbox .namebox .btn button {
+        background-color: FF4D00;
+        outline: none;
+        border-radius: 20px;
+        border: 2px;
+        padding: 4px 6px 4px 6px;
+        margin: 20px 10px 0px 0px; }
+    .topbody .firstbox .logo-qu {
+      margin: 50px 0px 0px 60px; }
+      .topbody .firstbox .logo-qu .qu {
+        margin-top: 30px; }
+  .topbody .searchbox {
+    display: flex;
+    justify-content: center; }
+    .topbody .searchbox form {
+      margin-top: 60px; }
+      .topbody .searchbox form input {
+        height: 40px;
+        width: 500px;
+        border-radius: 10px;
+        border: 1px solid black;
+        outline: none; }
+        .topbody .searchbox form input:hover {
+          outline: none; }
+  .topbody .infobox {
+    background-color: FF4D00;
+    margin-top: 60px;
+    height: 100px; }
+
+/*# sourceMappingURL=css.css.map */
