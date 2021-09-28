@@ -3,22 +3,24 @@
   margin: 0px;
 }
 nav {
+  background-color: $hcolor;
   .topnav {
-    background-color: $hcolor;
-    height: 6%;
+    display: flex;
+    justify-content: flex-end;
     .email {
-      float: left;
+      justify-content: flex-start;
+      background-color: $hcolor;
 
-      margin: 10px 0px 0px 40px;
+      margin: 10px 0px 10px 40px;
     }
     .follow {
-      float: right;
       margin: 10px 70px 0px 0px;
 
       ul {
         display: flex;
         flex-direction: row;
         list-style-type: none;
+
         li a {
           margin: 2px;
           text-decoration: none;
@@ -30,8 +32,7 @@ nav {
   }
   /// /// from here second nav
   .secondnav {
-    background-color: rgb(151, 144, 144);
-    height: 12%;
+    background-color: white;
     .logo {
       img {
         float: left;
@@ -61,24 +62,27 @@ nav {
     }
   }
 }
-.topbody {
+.firstscreen {
+  height: 80%;
   background-color: $scolor;
-  height: (100%-18%);
+}
+.topbody {
   .firstbox {
     display: flex;
     flex-direction: row;
     justify-content: center;
     .namebox {
-      margin-top: 140px;
+      margin-top: 90px;
+      width: 600px;
       .title {
         ::after {
           content: 'A best place for readers';
           font-size: 15px;
           position: absolute;
-          transform: translate(-100px, 40px);
+          transform: translate(-100px, 90px);
         }
         h1 {
-          font-size: 40px;
+          font-size: 80px;
         }
       }
       .btn {
@@ -97,7 +101,7 @@ nav {
           outline: none;
           border-radius: 20px;
           border: 2px;
-          padding: 4px 6px 4px 6px;
+          padding: 6px 8px 6px 8px;
           margin: 20px 10px 0px 0px;
         }
       }
@@ -112,6 +116,7 @@ nav {
   .searchbox {
     display: flex;
     justify-content: center;
+    margin-bottom: 0px;
     form {
       margin-top: 60px;
       input {
@@ -126,9 +131,37 @@ nav {
       }
     }
   }
-  .infobox {
+}
+.secondscreen {
+  height: 100%;
+}
+.recom-book-block {
+  height: 30%;
+  background-color: red;
+}
+.firsttry-book-block {
+  height: 30%;
+  background-color: red;
+}
+.infobox {
+  margin-top: 60px;
+  height: 151px;
+
+  display: flex;
+  justify-content: center;
+  .infoone {
+    border-radius: 20px 0px 0px 0px;
     background-color: $hcolor;
-    margin-top: 60px;
-    height: 100px;
+    h2 {
+      margin-top: 30px;
+      max-width: 150px;
+    }
+  }
+  .infotwo {
+    border-radius: 0px 20px 0px 0px;
+    background-color: $hcolor;
+    h2 {
+      margin-top: 30px;
+    }
   }
 }
